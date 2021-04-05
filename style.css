@@ -1,0 +1,19 @@
+#gallery1 {
+    width: 100%;
+    height: 600px;
+    background-color: lightpink;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+}
+
+#myCarousel {
+    width: 275px;
+    height: 180px;
+    margin-left: 450px;
+}

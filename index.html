@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <section id="gallery1">
+            <h1>Grid Gallery of Colours:</h1>
+            <div class="line"></div>
+            <a href="https://www.thespruce.com/understanding-warm-and-cool-colors-1976480" target="_blank"><img src="cool%20colors.png"></a>
+            <br>
+            <a href="https://www.thespruce.com/understanding-warm-and-cool-colors-1976480" target="_blank"><img src="warm%20colours.png"></a>
+        </section>
+
+
+        <h1>Slide Gallery of Colours:</h1>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="cool%20colors.png" class="img-responsive" alt="Cool Colours">
+                </div>
+
+                <div class="item">
+                    <img src="warm%20colours.png" class="img-responsive" alt="Warm Colours">
+                </div>
+
+
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+</body>
+
+</html>
